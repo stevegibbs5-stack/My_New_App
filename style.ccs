@@ -1,0 +1,26 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+  padding-top: 30px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#avatar {
+  width: 200px;
+  margin: 20px auto;
+}
+
+.hidden {
+  display: none;
+}

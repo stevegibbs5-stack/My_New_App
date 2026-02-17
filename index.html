@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AvatarApp</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+    button { margin: 5px; padding: 10px 20px; font-size: 16px; }
+    #avatar { width: 200px; height: auto; display: none; margin: 20px auto; }
+  </style>
+</head>
+<body>
+
+  <!-- Start screen -->
+  <div id="startScreen">
+    <button id="startBtn">Tap me when you're ready</button>
+  </div>
+
+  <!-- Avatar -->
+  <img id="avatar" src="">
+
+  <!-- Main buttons -->
+  <div id="mainButtons" style="display:none;">
+    <button data-type="outside">Going Outside</button>
+    <button data-type="clinic">Visiting a Clinic</button>
+    <button data-type="social">Social Situations</button>
+  </div>
+
+  <!-- Tier buttons -->
+  <div id="tierButtons" style="display:none;">
+    <button data-tier="1">I’m not ready yet</button>
+    <button data-tier="2">I’m thinking about it</button>
+    <button data-tier="3">I want to try</button>
+  </div>
+
+  <button id="hearAnotherBtn" style="display:none;">Hear Another Thought</button>
+  <button id="doneBtn" style="display:none;">Done</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
